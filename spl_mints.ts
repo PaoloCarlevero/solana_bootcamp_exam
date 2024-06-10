@@ -41,3 +41,12 @@ const mint = new PublicKey("5PwbHs8PZdEzBc6ayvEdYypWqoDryQEG6dkB6EX91fsR");
     console.log("Minted", amount, "to", ata.toBase58());
 
 })()
+
+/* OTUPUT:
+
+$ ts-node ./spl_mints.ts
+Associated Token Account:  2X4ZURY1WNEfR1LcDdmaN212WEgKggogQhPABBQziEFG
+Minted 10000000 to 2X4ZURY1WNEfR1LcDdmaN212WEgKggogQhPABBQziEFG
+Done in 15.19s.
+
+*/

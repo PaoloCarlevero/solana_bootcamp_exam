@@ -22,3 +22,10 @@ const connection = new Connection("https://api.devnet.solana.com", "confirmed");
 
     console.log("Mint Address:", mint.toBase58());
 })()
+
+/* OUTPUT (Added because I think it might make correcting the exam easier)
+
+Mint Address: 5PwbHs8PZdEzBc6ayvEdYypWqoDryQEG6dkB6EX91fsR
+Done in 9.33s.
+
+*/

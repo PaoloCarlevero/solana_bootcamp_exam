@@ -47,3 +47,14 @@ console.log("To: ", to.publicKey.toBase58());
 
     console.log("Transferred", amount, "from", fromAta.toBase58(), "to", toAta.toBase58());
 })()
+
+/* OUTPUT:
+
+$ ts-node ./spl_transfer.ts
+To:  8NVAJzTziF6ep1M822HocozCVtY86bSTXoQZVb3DneXe
+Associated Token Account:  hfUmodT7BzCyvynUSQuLxYGMzhF71avHr6CUpwasZvp
+Amount in ATA:  0
+Transferred 1000000 from 2X4ZURY1WNEfR1LcDdmaN212WEgKggogQhPABBQziEFG to hfUmodT7BzCyvynUSQuLxYGMzhF71avHr6CUpwasZvp
+Done in 15.04s.
+
+*/
