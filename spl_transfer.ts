@@ -15,7 +15,6 @@ const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 const connection = new Connection("https://api.devnet.solana.com", "confirmed");
 const mint = new PublicKey("5PwbHs8PZdEzBc6ayvEdYypWqoDryQEG6dkB6EX91fsR");
 const fromAta = new PublicKey("2X4ZURY1WNEfR1LcDdmaN212WEgKggogQhPABBQziEFG")
-// const fromAta = new PublicKey("5PwbHs8PZdEzBc6ayvEdYypWqoDryQEG6dkB6EX91fsR");
 
 const to = Keypair.generate();
 console.log("To: ", to.publicKey.toBase58());
