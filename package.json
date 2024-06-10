@@ -1,0 +1,26 @@
+{
+  "name": "esame-solana-bootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "spl_init": "ts-node ./spl_init.ts",
+    "spl_mints": "ts-node ./spl_mints.ts",
+    "spl_transfer": "ts-node ./spl_transfer.ts",
+    "upload_image": "ts-node ./upload_image.ts",
+    "spl_metadata": "ts-node ./spl_metadata.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.3",
+    "@types/node": "^20.14.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
